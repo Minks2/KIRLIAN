@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kirlian</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./css/demerval.css">
+
+</head>
+
+
+
+<body>
+
+  <div class="container-fluid background-img1">
+
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid py-1">
+          <img class="logo img-logo1" src="images/logo-removebg-preview.png" alt="Logotipo Kirlian">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-grid-3x3-gap"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item ms-2 me-1">
+                <a class="nav-link text-light" href="#material">Lista de Materiais</a>
+              </li>
+              <li class="nav-item ms-2 me-1">
+                <a class="nav-link text-light" href="#ligacoes">Ligações</a>
+              </li>
+              <li class="nav-item ms-2 me-1">
+                <a class="nav-link text-light" href="#hardware">Hardware</a>
+              </li>
+              <li class="nav-item ms-2 me-1">
+                <a class="nav-link text-light" href="#software">Software</a>
+              </li>
+              <li class="nav-item ms-2 me-1">
+                <a class="nav-link text-light" href="#contato">Contato</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="btn1 btn btn-outline-light rounded-3">Pagina Inicial</i>
+                  <i class="fa-solid fa-circle-arrow-right arrow"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="container container1" id="missao">
+      <div class="row d-flex align-items-center">
+
+        <div class="col-md-12 col-lg-6 my-3 py-4 text-left">
+          <h1 class="text-light display-4 my-4">Vamos aprender juntos!</h1>
+          <p class="texto1 text-light display-6"> A seguir, disponibilizaremos um 
+            <b class="corRoxa">tutorial</b> super dinâmico para que você coloque a mão na massa e principalmente, se divirta!
+          </p>
+        </div>
+        <figure class="col-md-6 my-3 display-none">
+          <img src="ilustração/Android-amico.svg" alt="Ilustração Storyset">
+        </figure>
+       
+
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ------------------------------------------------------------------------------------------------ -->
+
+
+  <section class="container-fluid" id="material">
+    <div class="pt-3 background-img2 row">
+
+      <h3 class="text-center text-light my-4 p-4">Lista de Materiais</h3>
+
+      <p class="texto-menor text-light col-md-7 mx-auto">  
+        Todos os materiais podem ser adquiridos através dos <b class="corRoxa">kits Kirlian Company</b> e acompanham manual individual e QRCode que irá te direcionar à nossa página do Youtube, onde disponibilizamos diversas novidades! Não percam!
+      </p>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        Iremos Utilizar:
+      </p>
+
+      <div class="col-md-6 col-lg-7 my-4 pt-2 mx-auto">
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item">Arduino Nano</li>
+          <li class="list-group-item"> 1x Regulador de Tensão 7805</li>
+          <li class="list-group-item"> 1x Diodo Retificador 1N4007</li>
+          <li class="list-group-item">1x Capacitor Eletrolítico 10uF</li>
+          <li class="list-group-item">1x Bateria 9V</li>
+          <li class="list-group-item">1x Adaptador de Bateria 9V</li>
+          <li class="list-group-item">1x Kit Chassi 2WD Robô para Arduino</li>
+          <li class="list-group-item">1x sensor Ultrassônico HC-SR04</li>
+          <li class="list-group-item"> Módulo Driver Ponte H L298N</li>
+          <li class="list-group-item">1x chave seletora;</li>
+          <li class="list-group-item"> Protoboard 400 pontos</li>
+          <li class="list-group-item">Jumpers Macho/Fêmea e Jumpers Macho/Macho;</li>
+        </ol>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------------------------------------- -->
+
+  <section class="container-fluid" id="ligacoes"> 
+    <div class="pt-3 background-img2 row align-items-center">
+
+      <h3 class="text-center text-light my-4 p-4">Modelo esquemático das ligações</h3>
+
+      <div class=" pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/modeloligacoes.png" class="img-fluid rounded " alt="...">
+      </div>
+
+    </div>
+  </section>
+ <!-- ----------------------------------------------------------------------------------- -->
+
+  <section class="container-fluid" id="hardware"> 
+    <div class="pt-3 background-img2 row align-items-center">
+
+      <h3 class=" pt-5 text-center text-light my-4 p-4">Montagem do Projeto e Detalhamento de Hardware</h3>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        Precisamos preparar alguns detalhes antes de iniciar o projeto. Os motores DC não vem com os fios soldados. Para isso, é necessário soldar fios flexíveis de aproximadamente 12cm conforme figura abaixo.
+      </p>
+
+      <div class=" pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/preparativo-a.png" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        Outro detalhe que facilitará muito a nossa vida é complementar os fios do adaptador da bateria de 9V com jumpers. O objetivo é possibilitar que a bateria seja conectada facilmente na protoboard. A figura abaixo mostra o efeito desejado. Moleza né?
+      </p>
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/preparativo-b.png" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        Agora é hora de montar o chassi do seu robô. A foto abaixo mostra um chassi redondo 2WD apenas com a base montada (sem o segundo andar). Aconselhamos usar para este projeto o chassi mais simples e barato possível. Pois teremos poucos componentes e o espaço utilizado será muito reduzido.      </p>
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/preparativo-c.png" class="img-fluid rounded " alt="...">
+      </div>
+
+     
+    </div>
+  </section>
+ <!-- ----------------------------------------------------------------------------------- -->
+
+  <section class="container-fluid" > 
+    <div class="pt-3 background-img2 row align-items-center">
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5 ">  
+        <b class="corRoxa">Fonte de Energia:</b>
+      </p>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-3">  
+        Utilizaremos uma bateria de 9V comum. Porém, nada impede que você use qualquer outra forma de energia que alcance tal valor. <br> <br>
+        
+        Agora que sabemos que utilizaremos 9V como fonte, temos um desafio. O Arduino Nano precisa de 5V para funcionar e não podemos ultrapassar esse valor para não danificá-lo. Para isso, apresentaremos o conceito de circuito regulador de tensão. <br> <br>   
+        
+        Um circuito regulador de tensão é capaz de reduzir e regular uma tensão de entrada para uma tensão de saída desejada. Utilizaremos o famoso CI 7805 que disponibilizará 5V em sua saída e servirá perfeitamente para alimentar o Arduino. A figura abaixo propõe um circuito muito simples que servirá perfeitamente para o nosso projeto. </p>
+
+
+    
+
+      <div class=" pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/ligacoesPilha.jpg" class="img-fluid rounded " alt="...">
+      </div>
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5"> Outro desafio é isolar o circuito de alimentação dos motores e o circuito que alimenta o Arduino. Não entraremos em detalhes sobre esse tópico, mas basicamente é necessário saber que motores são cargas
+       indutivas e podem retornar ruídos que podem afetar o funcionamento do Arduino. Sem entrar no mérito, usaremos um diodo na saída da bateria que alimentará os motores para evitar que qualquer tipo de corrente reversa atinja o regulador de tensão de 5V. <br> <br>
+
+        Assim, teremos uma divisão da energia fornecida pela bateria, onde isolaremos 5V para o circuito lógico e aproximadamente 8,3V para os motores (8,3V é o resultado de 9V da bateria com uma queda de 0,7V do diodo). <br> <br>
+        
+        A figura abaixo mostra a montagem da fonte com o acréscimo de um interruptor para ligarmos e desligarmos o robô. Notem que tudo fica na protoboard e facilita muito a montagem do robô.  </p>
+        
+      
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/ligacoesPilha2.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">
+        <b class="corRoxa"> Montagem do Arduino Nano:</b>  
+       
+      </p>
+
+        <p class="texto-menor text-light col-md-7 mx-auto pt-3">Essa etapa é muito simples. Devemos colocar o Arduino na protoboard e conectar a saída regulada de 5V no pino Vin do Arduino e o GND da fonte ao GND do Arduino, como pode ser visto na imagem abaixo:      </p>
+     
+
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/ligacoesPilha3.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        <b class="corRoxa">Montagem do Sensor Ultrassônico:</b> 
+        
+      </p>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-3">  
+      
+        Não iremos entrar no detalhe do funcionamento do sensor ultrassônico, pois já temos um tutorial exclusivo para este sensor: Medindo distâncias com o sensor ultrassônico, mas basicamente trata-se de um sensor que possui um emissor e receptor de ondas ultrassônicas de 40KHz. O mesmo emite a onda e a partir do tempo de ida e volta do sinal o mesmo calcula a distância de um obstáculo. <br><br>
+        
+        Apenas para título de conhecimento, a equação que o código da biblioteca do sensor utilizará para cálculo da distância ao obstáculo é simples. A distância (d) é obtida a partir da velocidade do som (v = 340m/s) multiplicado pelo tempo (t) de recepção do sinal dividido por 2 por conta da onda ir até o obstáculo e voltar. <br> <br>
+        
+        d = (v * t)/2 <br><br><br>
+        
+        Os pinos do Sensor ultrassônico HC-SR04 são: <br> <br>
+        
+        VCC: Alimentação do sensor (5V); <br><br>
+        
+        GND: GND do sensor; <br><br>
+        
+        Trigger: Gatilho para disparo dos pulsos ultrassônicos. O Trigger é controlado pelo Arduino; <br><br>
+        
+        Echo: Dispara um pulso cuja largura de tempo em alta representa o tempo para retorno da onda recebida pelo sensor. O Arduino utilizará este sinal para realizar o cálculo da distância.<br><br><br>
+        
+        Para o nosso projeto ligaremos devidamente o VCC e GND aos pinos do Arduino Nano e o Trigger e Echo do sensor aos pinos digitais D4 e D5 do Arduino Nano conforme figura abaixo:  <br>    </p>
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/ligacoesPilha4.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+     
+    </div>
+  </section>
+ <!-- ----------------------------------------------------------------------------------- -->
+
+  <section class="container-fluid"> 
+    <div class="pt-3 background-img2 row align-items-center">
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">
+        <b class="corRoxa">Montagem do Módulo Driver Ponte H L298N </b> 
+            </p>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-3">  
+        Utilizaremos o Modulo Ponte H L298N para controlar não somente o sentido de rotação dos motores DC, como também sua velocidade. 
+      </p>
+
+      <div class=" pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/montagemDriver.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        <b class="corRoxa">MOTOR A (OUT1 e OUT2) e MOTOR B (OUT3 e OUT4): </b> São os conectores para ligarmos no Motor A e no Motor B; <br> <br>
+
+        <b class="corRoxa">ATIVA MA (ENA) e ATIVA MB (ENB): </b>  Para o nosso projeto, devemos retirar os jumpers destes pinos, pois iremos controlar a velocidade dos motores com o Arduino. Caso não fossemos alterar a velocidade, deveríamos manter os jumpers; <br><br>
+        
+        <b class="corRoxa"> ATIVA 5V: </b> Devemos manter este jumper, pois iremos utilizar alimentação de aproximadamente 8V e o mesmo ativa um regulador de tensão interno do módulo que garante os 5V de alimentação para o circuito; <br><br>
+        
+        <b class="corRoxa">6-35V e GND:</b>  Conectaremos a fonte dos motores nestes terminais, VCC e GND; <br><br>
+        
+        <b class="corRoxa"> ENTRADA (IN1, IN2, IN3 e IN4): </b>Pinos responsáveis pelo sentido de rotação do Motor A (IN1 e IN2) e Motor B (IN3 e IN4). Abaixo segue a tabela para entendermos a configuração necessária. <br><br>
+
+        Agora que entendemos, resumidamente, como funciona o Módulo L298N, vamos iniciar sua conexão. Primeiramente, devemos conectar os motores nos conectores OUT1/OUT2 e OUT3 e OUT4.
+
+      </p>
+
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/montagemDriver2.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        Próximo passo é ligar a alimentação de energia nos conectores 6-35V e GND, conforme figura abaixo:   </p>
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/montagemDriver3.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+      <p class="texto-menor text-light col-md-7 mx-auto pt-5">  
+        Iremos conectar os pinos IN1, IN2, IN3 e IN4 do Módulo aos pinos D6, D7, D8 e D9 do Arduino respectivamente. Finalmente, conectaremos os pinos ENA e ENB do Módulo aos pinos PWM D10 e D11 do Arduino respectivamente. Pronto! Tudo conectado!
+
+  </p>
+
+
+      <div class="pt-5 col-lg-7 mx-auto d-block">
+        <img src="imagesDemerval/montagemDriver5.jpg" class="img-fluid rounded " alt="...">
+      </div>
+
+     
+    </div>
+  </section>
+ <!-- ----------------------------------------------------------------------------------- -->
+ 
+ <section class="container-fluid" id="software"> 
+  <div class="pt-3 background-img2 row align-items-center">
+    <h3 class="text-center text-light my-4 p-4">Configurando nosso software!</h3>
+
+    <p class="texto-menor text-light col-md-7 mx-auto pt-5">   A primeira coisa a se fazer é configurar o seu Arduinno Nano no Windows, siga os passos deste tutorial. ATENÇÃO: caso você não faça a configuração do Arduino Nano como descrito no tutorial, o Windows não irá reconher a sua placa Nano e assim não será possível fazer o upload do código para o Arduino Nano. <br><br>
+
+    O código final do projeto pode ser visto abaixo:  </p>
+
+    <div class=" pt-5 col-lg-7 mx-auto d-block">
+
+      <img src="imagesDemerval/codigo.png" class="img-fluid rounded " alt="...">
+  
+    </div>
+
+    <p class="texto-menor text-light col-md-7 mx-auto pt-5">  <br> Nós da KIrlian queremos sempre trazer de uma maneira simplificada como pode ser feita a montagem do seu robô! Utilizando nossos produtos em conjunto com um tutorial descomplicado, nosso objetivo é mostrar que você é capaz de montar o seu próprio robô. <br> E se já deve estar pensando em melhorá-lo, Fique a vontade! que tal alterar o modelo com a ajuda de nossos diversos kits e materiais pedagógicos disponibilizados na plataforma? Não perca a oportunidade!</p>
+
+  
+  </div>
+</section>
+
+
+ 
+
+
+
+  <section class=" bg-black p-5" id="contato">
+    <div class="container contato">
+      <div class="row py-5 g-3">
+
+        <div class="col-md-12 col-lg-6 text-light">
+          <h2 class="text-center mt-3">CONTATO</h2>
+          <form class="p-4 mt-5">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+              <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-outline-light">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <figure class="col-md-6">
+          <img src="./ilustração/Deconstructed robot-amico.svg" alt="Ilustração Storyset">
+        </figure>
+      </div>
+  </section>
+  <footer class="bg-black">
+    <div class="row-last container">
+      <div class="row row-col-1 row-col-md-3  p-3 text-white">
+        <div class="col">
+          <h4>Redes sociais</h4>
+          <div class="text-left my-4 ">
+            <a href="https://www.youtube.com/@KIRLIAMFiap" target="_blank"><i class="bi  bi-youtube icon me-3"></a></i>
+            <a href="#"><i class="bi  bi-discord icon me-3"></a></i>
+            <a href="#"><i class="bi  bi-twitter icon me-3"></a></i>
+            <a href="https://instagram.com/kirliancompany?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i
+                class="bi  bi-instagram icon"></a></i>
+
+          </div>
+        </div>
+        <div class="col">
+          <h4>Localização</h4>
+          <p>Fiap Cambucci, Lins de Vasconcelos</p>
+        </div>
+        <div class="col">
+          <h4>Email</h4>
+          <p>kirliamfiap@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
